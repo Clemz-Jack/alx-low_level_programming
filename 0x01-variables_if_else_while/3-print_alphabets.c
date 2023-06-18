@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - print the alphabet
+*main - prints the alphabet
 *
 *Return: Always 0 (success)
 */
@@ -9,7 +9,7 @@ int main(void)
 	char alp[62] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; 1 < 62; i++)
+	for (i = 0; i < 62; i++)
 	{
 		putchar(alp[i]);
 	}

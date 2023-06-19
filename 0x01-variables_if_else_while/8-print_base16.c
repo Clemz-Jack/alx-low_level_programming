@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - print numbers betwwen 0 to 9 and letters between a to f 
+*main - print numbers betwwen 0 to 9 and letters between a to f
 *
 *Return: Always 0 (success)
 */

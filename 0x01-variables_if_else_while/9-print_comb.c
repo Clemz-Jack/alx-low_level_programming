@@ -1,19 +1,24 @@
 #include <stdio.h>
 /**
-*main - print all  possible different combination of one digit 
+*main - print all single  digit
 *
 *Return: Always 0 (success)
 */
 int main(void)
 {
-	int n;
+	int num;
 
-	for (n = 48; n < 58; n++)
+	num = 0;
+
+
+	while (num <= 9)
 	{
-		putchar(n);
-		if (n != 57);
+
+		putchar(num + '0');
+		if (num < 9)
 		{
-			putchar(' ');
+
+			putchar(',');
 			putchar(' ');
 		}
 	}

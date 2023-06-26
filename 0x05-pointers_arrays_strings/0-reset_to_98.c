@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-* reset_t0_98 - function that manipulate an int
-* and updates the value it points to to 98
+* reset_t0_98 - function that manipulate an int :
 * @n: input
 *
 * Return: n

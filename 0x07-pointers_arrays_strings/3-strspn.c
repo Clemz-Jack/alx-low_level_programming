@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* _strspn - Entry point 
-* @s: input 
+* _strspn - Entry point
+* @s: input
 * @accept: input
 * Return: Alwyas 0 (success)
 */
@@ -27,4 +27,4 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (n);
 }
-			
+

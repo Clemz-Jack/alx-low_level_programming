@@ -1,13 +1,18 @@
 #include "main.h"
+
 /**
 * _strspn - Entry point
 * @s: input
 * @accept: input
-* Return: Alwyas 0 (success)
+* Return: Always 0 (Success)
 */
+
 unsigned int _strspn(char *s, char *accept)
+
 {
+
 	unsigned int n = 0;
+
 	int r;
 
 	while (*s)
@@ -16,7 +21,6 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (*s == accept[r])
 			{
-
 				n++;
 				break;
 			}
@@ -27,4 +31,3 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (n);
 }
-
